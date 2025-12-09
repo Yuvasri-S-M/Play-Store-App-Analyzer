@@ -1,4 +1,4 @@
-# Large dataset files (ignored)
+# Large dataset files(ignored)
 data/raw/Playstore_final.csv
 data/cleaned/Playstore_cleaned.csv
 data/cleaned/Playstore_sample.csv

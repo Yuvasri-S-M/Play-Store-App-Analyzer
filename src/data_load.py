@@ -14,6 +14,7 @@ def load_raw(path: str | Path = DEFAULT_FILE) -> pd.DataFrame:
         on_bad_lines="skip",    
         encoding="utf-8"
     )
+    
     print("Loaded shape:", df.shape)
     return df
 

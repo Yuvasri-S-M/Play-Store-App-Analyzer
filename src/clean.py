@@ -24,6 +24,7 @@ def clean_playstore_df(df: pd.DataFrame) -> pd.DataFrame:
             .str.replace(",", "", regex=False)
             .str.strip()
         )
+    
         df["Installs"] = pd.to_numeric(df["Installs"], errors="coerce")
 
     if "Price" in df.columns:
@@ -50,12 +51,11 @@ if __name__ == "__main__":
         on_bad_lines="skip",
         encoding="utf-8"
     )
-
     cleaned = clean_playstore_df(df)
 
     out_file = OUT_DIR / "Playstore_cleaned.csv"
     cleaned.to_csv(out_file, index=False)
 
-    print("Cleaned file saved to:", out_file)
+    print("Cleaned files saved to:", out_file)
 
 

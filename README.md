@@ -53,27 +53,29 @@ Model trained using:
 PLAY-STORE-APP-ANALYZER/
 │
 ├── data/
-│   ├── cleaned/
-│   │   ├── Playstore_cleaned.csv
-│   │   ├── Playstore_sample.csv
-│   └── raw/
-|       |──Playstore_final.csv
+│   ├── raw/
+│   │   └── Playstore_final.csv            
+│   │
+│   └── cleaned/
+│       ├── Playstore_cleaned.csv          
+│       └── Playstore_sample.csv           
 │
 ├── models/
-│   └── app_success_clf.pkl
+│   └── app_success_clf.pkl                
 │
 ├── src/
-│   ├── app.py               
-│   ├── clean.py             
-│   ├── analyze.py           
-│   ├── train_model.py
-|   |── data_load.py
-|   |── test_predict.py
-|   |── viz.py     
+│   ├── app.py                             
+│   ├── clean.py                          
+│   ├── analyze.py                         
+│   ├── train_model.py                     
+│   ├── data_load.py                       
+│   ├── test_predict.py                   
+│   └── viz.py                             
 │
 ├── README.md
 ├── requirements.txt
-└── archive.zip
+└── .gitignore
+
 
 ## 🔧 Setup Instructions
 
@@ -98,22 +100,22 @@ After downloading:
 - This creates:
   data/cleaned/Playstore_cleaned.csv
 
-# Install dependencies
-pip install -r requirements.txt
+### Install dependencies :
+ pip install -r requirements.txt
 
-# Train the Machine Learning model
+### Train the Machine Learning model
 python src/train_model.py
 
 This generates the file:
 models/app_success_clf.pkl
 
-# Sample to run 50,000 entries
+### Sample to run entries
 python -c "import pandas as pd; df=pd.read_csv('data/cleaned/Playstore_cleaned.csv', low_memory=False); n=min(len(df),50000); df.sample(n, random_state=1).to_csv('data/cleaned/Playstore_sample.csv', index=False); print('Wrote sample rows:', n)"
 
-# Run the Streamlit dashboard
+### Run the Streamlit dashboard
 python -m streamlit run src/app.py
 
-# Open the app in your browser
+### Open the app in your browser
 The app automatically opens at:
 http://localhost:8501
 

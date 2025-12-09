@@ -24,6 +24,6 @@ row = pd.DataFrame([{
 }])
 
 prob = m.predict_proba(row)[:,1][0]
-print(f"Pred prob of ≥1M installs: {prob:.4f}")
+print(f"Pred prob of ≥1M install: {prob:.4f}")
 
 

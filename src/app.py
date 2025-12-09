@@ -286,6 +286,7 @@ with st.expander("Export / Download"):
     st.write("Download the currently filtered table.")
     download_button_excel(filtered)
 
+
 st.write("---")
 st.caption("Built with Streamlit. Layout B: KPIs on top, left = main (2/3), right = ML predictor (1/3).")
 

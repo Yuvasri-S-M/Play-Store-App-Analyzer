@@ -137,5 +137,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     model_path = train_and_save(sample=args.sample)
-    print("Done. Model saved to:", model_path)
+    print("Done. Model saved to :", model_path)
 

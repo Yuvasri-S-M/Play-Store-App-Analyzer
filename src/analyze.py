@@ -56,14 +56,12 @@ if __name__ == "__main__":
     print("Loaded cleaned CSV shape:", df.shape)
     print("\nColumns found:\n", df.columns.tolist())
 
-    # Top 10 apps
     try:
         print("\nTop 10 apps by installs:")
         print(top_n_by_installs(df, 10).to_string(index=False))
     except Exception as e:
         print("Could not compute top apps:", e)
 
-    # Top categories
     print("\nTop categories by total installs:")
     cats = top_categories_by_installs(df, 15)
     if not cats.empty:
@@ -71,7 +69,6 @@ if __name__ == "__main__":
     else:
         print("Category/Installs columns missing or empty.")
 
-    # Free vs Paid summary
     print("\nFree vs Paid summary:")
     fv = free_vs_paid_summary(df)
     if not fv.empty:

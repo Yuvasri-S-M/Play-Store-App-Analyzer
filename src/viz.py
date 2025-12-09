@@ -135,7 +135,7 @@ def plot_top_developers(df, top_n=20):
 
 def run_all_visuals():
     df = load_df()
-    print("\nGenerating ALL visualizations...\n")
+    print("\nGenerating ALL visualizations.....\n")
 
     plot_top_categories_installs(df)
     plot_category_avg_rating(df)
