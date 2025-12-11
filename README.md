@@ -98,7 +98,7 @@ python -m streamlit run src/app.py
 ![chart2](Install_vs_Reviews.png)
 
 ### 🏆 Top Word Cloud
-![Chart3](Wordcloud.png)
+![Chart3](Wordclouds.png)
 
 ### 🏆 Release Year and Top Developers
 ![Chart4](Releaseyear_and_Developers.png)
