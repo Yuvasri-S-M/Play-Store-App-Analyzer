@@ -54,7 +54,6 @@ PLAY-STORE-APP-ANALYZER/
 ├── data/
 │   ├── raw/
 │   │   └── Playstore_final.csv
-│   │
 │   └── cleaned/
 │       ├── Playstore_cleaned.csv
 │       └── Playstore_sample.csv
@@ -74,6 +73,7 @@ PLAY-STORE-APP-ANALYZER/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+
 
 
 ## 🔧 Setup Instructions
