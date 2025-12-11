@@ -109,36 +109,29 @@ python src/train_model.py
 This generates the file:
 models/app_success_clf.pkl
 
-### Sample to run entries
-python -c "import pandas as pd; df=pd.read_csv('data/cleaned/Playstore_cleaned.csv', low_memory=False); n=min(len(df),50000); df.sample(n, random_state=1).to_csv('data/cleaned/Playstore_sample.csv', index=False); print('Wrote sample rows:', n)"
-
 ### Run the Streamlit dashboard
 python -m streamlit run src/app.py
-
-### Open the app in your browser
-The app automatically opens at:
-http://localhost:8501
 
 ## 🖼️ Sample Output
 
 ### 🏠 Dashboard
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
 
 ### 📊 Category Chart and ⭐ Rating Distribution
-![chart1](categorychart_and_rating.png)
+![chart1](Category_and_Rating.png)
 
 ### 🔁 Installs vs Reviews
-![chart2](install_vs_review.png)
+![chart2](Install_vs_Reviews.png)
 
 ### 🏆 Top Word Cloud
-![Chart3](word_cloud.png)
+![Chart3](Wordcloud.png)
 
 ### 🏆 Release Year and Top Developers
-![Chart4](appreleased_and_developers.png)
+![Chart4](Releaseyear_and_Developers.png)
 
 ### 📈 Top N Table
-![Top N Table](n_tables.png)
+![Top N Table](Ntables.png)
 
 ### 🤖 ML Predictor
-![ML Predictor](ml_successpredictor.png)
+![ML Predictor](ML_successpredictor.png)
 
