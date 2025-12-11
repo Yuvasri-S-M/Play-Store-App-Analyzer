@@ -107,5 +107,5 @@ python -m streamlit run src/app.py
 ![Top N Table](Ntables.png)
 
 ### 🤖 ML Predictor
-![ML Predictor](ML_successpredictor.png)
+![ml Predictor](ML_successpredictor.png)
 
