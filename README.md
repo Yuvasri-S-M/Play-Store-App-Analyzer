@@ -49,7 +49,32 @@ Model trained using:
 ---
 
 ## 📁 Project Structure
-![Structure](Structure.png)
+PLAY-STORE-APP-ANALYZER/
+│
+├── data/
+│   ├── raw/
+│   │   └── Playstore_final.csv
+│   │
+│   └── cleaned/
+│       ├── Playstore_cleaned.csv
+│       └── Playstore_sample.csv
+│
+├── models/
+│   └── app_success_clf.pkl
+│
+├── src/
+│   ├── app.py
+│   ├── clean.py
+│   ├── analyze.py
+│   ├── train_model.py
+│   ├── data_load.py
+│   ├── test_predict.py
+│   └── viz.py
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
+
 
 ## 🔧 Setup Instructions
 
