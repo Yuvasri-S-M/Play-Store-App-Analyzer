@@ -49,6 +49,8 @@ Model trained using:
 ---
 
 ## 📁 Project Structure
+
+```
 PLAY-STORE-APP-ANALYZER/
 │
 ├── data/
@@ -73,7 +75,7 @@ PLAY-STORE-APP-ANALYZER/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 
 ## 🔧 Setup Instructions
