@@ -89,7 +89,7 @@ python -m streamlit run src/app.py
 ## 🖼️ Sample Output
 
 ### 🏠 Dashboard
-![Dashboard](Dashboard.png)
+![dashboard](Dashboard.png)
 
 ### 📊 Category Chart and ⭐ Rating Distribution
 ![chart1](Category_and_Rating.png)
