@@ -49,40 +49,14 @@ Model trained using:
 ---
 
 ## 📁 Project Structure
-
-PLAY-STORE-APP-ANALYZER/
-│
-├── data/
-│   ├── raw/
-│   │   └── Playstore_final.csv            
-│   │
-│   └── cleaned/
-│       ├── Playstore_cleaned.csv          
-│       └── Playstore_sample.csv           
-│
-├── models/
-│   └── app_success_clf.pkl                
-│
-├── src/
-│   ├── app.py                             
-│   ├── clean.py                          
-│   ├── analyze.py                         
-│   ├── train_model.py                     
-│   ├── data_load.py                       
-│   ├── test_predict.py                   
-│   └── viz.py                             
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-
+![Structure](Structure.png)
 
 ## 🔧 Setup Instructions
 
 # 📥 Download the Dataset (Required)
 
-👉 Download from Kaggle:
-https://www.kaggle.com/datasets/geothomas/playstore-dataset
+👉 Download:
+https://drive.google.com/file/d/1pqi9HbxutG6fdg48N6rpfFxk5B3ohiGb/view?usp=sharing
 
 After downloading:
 - Extract the ZIP
